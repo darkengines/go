@@ -1,0 +1,3 @@
+/bin/*
+/pkg/*
+sqlite3.db
