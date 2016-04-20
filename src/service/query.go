@@ -1,10 +1,6 @@
 package service
 
-type Metadata struct {
-	ServiceName string
-}
-
 type Query struct {
-	Metadata Metadata
+	Service Service
 	Parameter interface{}
 }
